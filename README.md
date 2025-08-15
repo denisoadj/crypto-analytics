@@ -2,14 +2,15 @@ This project ingests cryptocurrency market data from APIs, stores it in an HDFS 
 
 ## Repository Structure
 crypto-analytics/
-│── airflow_dags/        # Airflow DAGs for orchestration
-│── ingestion/           # Python ingestion scripts
-│── processing/          # PySpark jobs
-│── dashboard/           # Dashboard 
-│── configs/             # API keys, category mapping
-│── docs/                # Documentation files
-│── requirements.txt     # Python dependencies   
-│── README.md            # Project overview
+├── airflow_dags/        # Airflow DAGs for orchestrating workflows
+├── ingestion/           # Python scripts for data ingestion
+├── processing/          # PySpark jobs for data processing
+├── dashboard/           # Dashboard implementation and assets
+├── configs/             # Configuration files (API keys, category mappings, etc.)
+├── docs/                 # Project documentation
+├── requirements.txt     # Python dependencies
+└── README.md            # Project overview and setup instructions
+
 
 ## Key Features
 API/WebSocket → Kafka (optional) → PySpark (Streaming or Batch) → HDFS (raw)

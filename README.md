@@ -1,1 +1,31 @@
-On going...
+This project ingests cryptocurrency market data from APIs, stores it in an HDFS data lake, and processes it using PySpark for category-based market correlation analysis. The pipeline supports incremental ingestion, partitioned Parquet storage, and automated orchestration via Apache Airflow.
+
+## Repository Structure
+crypto-analytics/
+│── airflow_dags/        # Airflow DAGs for orchestration
+│── ingestion/           # Python ingestion scripts
+│── processing/          # PySpark jobs
+│── dashboard/           # Dashboard 
+│── configs/             # API keys, category mapping
+│── docs/                # Documentation files
+│── requirements.txt     # Python dependencies   
+│── README.md            # Project overview
+
+## Key Features
+API/WebSocket → Kafka (optional) → PySpark (Streaming or Batch) → HDFS (raw)
+HDFS (raw) → PySpark Batch → data warehouse (processed) → Hive/Presto → Dashboard
+
+## Key Features
+Incremental ingestion from public crypto APIs.
+
+Partitioned Parquet storage in HDFS.
+
+Real-time streaming support via Kafka (optional).
+
+Batch analytics with PySpark for large-scale correlation computations.
+
+Automated orchestration with Airflow.
+
+Category-based insights: stablecoins, DeFi, Layer 1, meme tokens, etc.
+
+

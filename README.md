@@ -14,7 +14,7 @@ crypto-analytics/
 ```
 
 
-## Key Features
+## Architecture
 API/WebSocket → Kafka (optional) → PySpark (Streaming or Batch) → HDFS (raw)
 HDFS (raw) → PySpark Batch → data warehouse (processed) → Hive/Presto → Dashboard
 

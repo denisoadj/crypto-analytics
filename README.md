@@ -4,7 +4,7 @@ This project ingests cryptocurrency market data from APIs, stores it in an HDFS 
 ```
 crypto-analytics/
 ├── airflow_dags/        # Airflow DAGs for orchestrating workflows
-├── .venv/               # Virtual Machine acting as a "sandbox host"
+├── .idea/               # Virtual Machine acting as a "sandbox host"
 ├── ingestion/           # Python scripts for data ingestion
 ├── processing/          # PySpark jobs for data processing
 ├── dashboard/           # Dashboard implementation and assets

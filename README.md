@@ -29,6 +29,6 @@ Batch analytics with PySpark for large-scale correlation computations.
 
 Automated orchestration with Airflow.
 
-Category-based insights: stablecoins, DeFi, Layer 1, meme tokens, etc.
+Category-based insights: stablecoins, DeFi, Layer 1, meme tokens, NFT, AI & Big Data, Oracle.
 
 

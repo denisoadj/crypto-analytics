@@ -31,7 +31,7 @@ Batch analytics with PySpark for large-scale correlation computations.
 
 Automated orchestration with Airflow.
 
-Category and tokens:
+Categories and tokens:
 
     Payment: USDT, USDC, DAI, BUSD, TUSD, XRP
     DeFi: UNI, AAVE, COMP, SUSHI, MKR, CAKE, CRV 

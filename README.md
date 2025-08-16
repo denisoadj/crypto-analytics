@@ -4,6 +4,7 @@ This project ingests cryptocurrency market data from APIs, stores it in an HDFS 
 ```
 crypto-analytics/
 ├── airflow_dags/        # Airflow DAGs for orchestrating workflows
+├── .venv/               # Virtual Machine acting as a "sandbox host"
 ├── ingestion/           # Python scripts for data ingestion
 ├── processing/          # PySpark jobs for data processing
 ├── dashboard/           # Dashboard implementation and assets
@@ -24,12 +25,18 @@ Incremental ingestion from public crypto APIs.
 
 Partitioned Parquet storage in HDFS.
 
-Real-time streaming support via Kafka (optional).
+Real-time streaming support via Kafka
 
 Batch analytics with PySpark for large-scale correlation computations.
 
 Automated orchestration with Airflow.
 
-Category-based insights: stablecoins, DeFi, Layer 1, meme tokens, NFT, AI & Big Data, Oracle.
+Category-based insights: 
+    Payment: USDT, USDC, DAI, BUSD, TUSD, XRP
+    DeFi: UNI, AAVE, COMP, SUSHI, MKR, CAKE, CRV
+    Layer 1: BTC, ETH, SOL, AVAX, ADA, DOT
+    Meme tokens: DOGE, SHIB, FLOKI, PEPE, CKB
+    NFT: SAND, MANA, AXS, ENJ, THETA 
+    Infrastructures: LINK, GRT, RUNE, AGIX, OCEAN, NEAR, TAO 
 
 

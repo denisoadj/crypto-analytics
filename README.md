@@ -31,9 +31,10 @@ Batch analytics with PySpark for large-scale correlation computations.
 
 Automated orchestration with Airflow.
 
-Category-based insights: 
+Category-based insights:
+
     Payment: USDT, USDC, DAI, BUSD, TUSD, XRP
-    DeFi: UNI, AAVE, COMP, SUSHI, MKR, CAKE, CRV
+    DeFi: UNI, AAVE, COMP, SUSHI, MKR, CAKE, CRV 
     Layer 1: BTC, ETH, SOL, AVAX, ADA, DOT
     Meme tokens: DOGE, SHIB, FLOKI, PEPE, CKB
     NFT: SAND, MANA, AXS, ENJ, THETA 

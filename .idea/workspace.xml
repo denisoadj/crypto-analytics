@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2093efb-f698-452f-9ba4-b6edc60df78e" name="Changes" comment="pyspark">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ingestion/binance_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/ingestion/binance_data.py" afterDir="false" />
+    <list default="true" id="f2093efb-f698-452f-9ba4-b6edc60df78e" name="Changes" comment=".">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing/bronze_layer.py" beforeDir="false" afterPath="$PROJECT_DIR$/processing/bronze_layer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing/pyspark_libraries.py" beforeDir="false" afterPath="$PROJECT_DIR$/processing/pyspark_libraries.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +228,7 @@
       <workItem from="1755523154183" duration="10565000" />
       <workItem from="1755543974192" duration="10502000" />
       <workItem from="1755590884834" duration="27570000" />
-      <workItem from="1755679145320" duration="26265000" />
+      <workItem from="1755679145320" duration="27658000" />
     </task>
     <task id="LOCAL-00001" summary="read me adjustment">
       <option name="closed" value="true" />
@@ -348,7 +350,31 @@
       <option name="project" value="LOCAL" />
       <updated>1755782075646</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="pyspark">
+      <option name="closed" value="true" />
+      <created>1755782499480</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1755782499480</updated>
+    </task>
+    <task id="LOCAL-00017" summary=".">
+      <option name="closed" value="true" />
+      <created>1755782574327</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1755782574327</updated>
+    </task>
+    <task id="LOCAL-00018" summary=".">
+      <option name="closed" value="true" />
+      <created>1755782587045</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1755782587045</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,9 +415,9 @@
     <MESSAGE value="grammar" />
     <MESSAGE value="add coingecko data and yahoo finance" />
     <MESSAGE value="finish ingestion scripts" />
-    <MESSAGE value="." />
     <MESSAGE value="pyspark" />
-    <option name="LAST_COMMIT_MESSAGE" value="pyspark" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

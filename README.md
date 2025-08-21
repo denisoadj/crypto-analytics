@@ -5,7 +5,6 @@ This project ingests cryptocurrency market data from APIs, stores it in an HDFS 
 crypto-analytics/
 ├── airflow_dags/        # Airflow DAGs for orchestrating workflows
 ├── .idea/               # Virtual Machine acting as a "sandbox host"
-├── .venv/               
 ├── ingestion/           # Python scripts for data ingestion
 ├── processing/          # PySpark jobs for data processing
 ├── storage/             # Parquet files acting  "api sources sandbox"
@@ -19,15 +18,13 @@ crypto-analytics/
 
 
 ## Architecture Diagram 
-API/WebSocket → Kafka → PySpark (Streaming or Batch) → HDFS (raw)
+API/WebSocket → PySpark (Streaming or Batch) → HDFS (raw)
 HDFS (raw) → PySpark Batch → data warehouse (processed) → Hive/Presto → Dashboard
 
 ## Key Features
 Incremental ingestion from public crypto APIs.
 
 Partitioned Parquet storage in HDFS.
-
-Real-time streaming support via Kafka
 
 Batch analytics with PySpark for large-scale correlation computations.
 

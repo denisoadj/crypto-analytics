@@ -55,7 +55,7 @@ for ticker in binance_ticker:
     res.append(_features)
 
 historical_res_df = pd.DataFrame(res).dropna().drop(columns=['volatility_ratio'])
-#print(historical_res_df.head())
+print(historical_res_df.head())
 
 
 # check the number of symbols

@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2093efb-f698-452f-9ba4-b6edc60df78e" name="Changes" comment=".">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processing/bronze_layer.py" beforeDir="false" afterPath="$PROJECT_DIR$/processing/bronze_layer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processing/pyspark_libraries.py" beforeDir="false" afterPath="$PROJECT_DIR$/processing/pyspark_libraries.py" afterDir="false" />
-    </list>
+    <list default="true" id="f2093efb-f698-452f-9ba4-b6edc60df78e" name="Changes" comment="." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,32 +43,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.API scripts.executor&quot;: &quot;Run&quot;,
-    &quot;Python.api_libraries.executor&quot;: &quot;Run&quot;,
-    &quot;Python.binance_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.coin_gecko_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.coingecko data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.kraken_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.okx_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pyspark_libraries.executor&quot;: &quot;Run&quot;,
-    &quot;Python.world_coin_index_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.yahoo_finance_data.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.API scripts.executor": "Run",
+    "Python.api_libraries.executor": "Run",
+    "Python.binance_data.executor": "Run",
+    "Python.coin_gecko_data.executor": "Run",
+    "Python.coingecko data.executor": "Run",
+    "Python.kraken_data.executor": "Run",
+    "Python.okx_data.executor": "Run",
+    "Python.pyspark_libraries.executor": "Run",
+    "Python.world_coin_index_data.executor": "Run",
+    "Python.yahoo_finance_data.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.binance_data">
     <configuration name="binance_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="crypto-analytics" />
@@ -229,6 +225,7 @@
       <workItem from="1755543974192" duration="10502000" />
       <workItem from="1755590884834" duration="27570000" />
       <workItem from="1755679145320" duration="27658000" />
+      <workItem from="1755787768662" duration="387000" />
     </task>
     <task id="LOCAL-00001" summary="read me adjustment">
       <option name="closed" value="true" />
@@ -374,7 +371,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755782587045</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary=".">
+      <option name="closed" value="true" />
+      <created>1755787893288</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1755787893288</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -25,6 +25,6 @@ feature_cols =[
 ]
 
 final_wci_df = wci_df[feature_cols]
-print(final_wci_df.head())
-
+#print(final_wci_df.info())
+#final_wci_df.to_parquet(output_path / "world_coin_index_raw", engine="pyarrow", index=False)
 

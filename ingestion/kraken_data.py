@@ -22,10 +22,11 @@ def kraken_features(df_row: pd.Series) -> dict:
         "order_min": float(df_row.get("ordermin", np.nan)),
         "margin_call": float(df_row.get("margin_call", np.nan)),
         "margin_stop": float(df_row.get("margin_stop", np.nan)),
-        "status": 1 if df_row.get("status") == "online" else 0,
+        "is_live": 1 if df_row.get("status") == "online" else 0,
         "has_leverage": 1 if df_row.get("leverage_buy") or df_row.get("leverage_sell") else 0,
     }
 
 kraken_feat = k_usdt_pairs.apply(kraken_features, axis=1)
 kraken_df = pd.DataFrame(kraken_feat.tolist())
-print(kraken_df.info())
+#print(kraken_df.info())
+#raken_df.to_parquet(output_path / "kraken_raw", engine="pyarrow", index=False)

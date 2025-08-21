@@ -3,6 +3,7 @@ import numpy as np
 import requests as r
 import yfinance as yf
 from datetime import datetime as dt
+from pathlib import Path
 
 
 
@@ -33,6 +34,6 @@ CATEGORY_MAP = {
 }
 
 
-
+output_path = Path("C:/Users/denis/PycharmProjects/crypto-analytics/storage")
 
 

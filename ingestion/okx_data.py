@@ -27,5 +27,5 @@ def extract_okx_features(df_row: pd.Series) -> dict:
 okx_features = okx_df.apply(extract_okx_features, axis=1)
 okx_features_df = pd.DataFrame(okx_features.tolist())
 
-#print(okx_features_df.info())
+print(okx_features_df.head())
 #okx_features_df.to_parquet(output_path / "okx_raw", engine="pyarrow", index=False)

@@ -12,7 +12,7 @@ process_id = str(uuid.uuid4())
 
 sources = {
     "coingecko": "/app/storage/coin_gecko_raw",
-    "wci": "/app/storage/world_coin_index_raw",
+    "wci": "/app/storage/wci_raw",
     "binance": "/app/storage/binance_raw",
     "yahoo": "/app/storage/yahoo_raw",
     "okx": "/app/storage/okx_raw",

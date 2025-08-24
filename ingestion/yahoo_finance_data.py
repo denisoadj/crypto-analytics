@@ -100,3 +100,11 @@ if __name__ == "__main__":
     final_df = pd.DataFrame(results).dropna()
     #print(final_df.info())
     #final_df.to_parquet(output_path / "yahoo_finance_raw", engine="pyarrow", index=False)
+
+    # final_df.to_parquet(
+    #     output_path / "yahoo_raw",
+    #     engine="pyarrow",
+    #     index=False,
+    #     coerce_timestamps='us',  # This is the key parameter
+    #     allow_truncated_timestamps=True
+    # )

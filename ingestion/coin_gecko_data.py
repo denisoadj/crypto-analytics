@@ -85,3 +85,10 @@ feature_columns = [
 final_cg_df = eng_cg_df[feature_columns]
 #print(final_cg_df.info())
 #final_cg_df.to_parquet(output_path / "coin_gecko_raw", engine="pyarrow", index=False)
+# final_cg_df.to_parquet(
+#     output_path / "coin_gecko_raw",
+#     engine="pyarrow",
+#     index=False,
+#     coerce_timestamps='us',  # This is the key parameter
+#     allow_truncated_timestamps=True
+# )

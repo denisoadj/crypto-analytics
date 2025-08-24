@@ -29,4 +29,11 @@ def kraken_features(df_row: pd.Series) -> dict:
 kraken_feat = k_usdt_pairs.apply(kraken_features, axis=1)
 kraken_df = pd.DataFrame(kraken_feat.tolist())
 #print(kraken_df.info())
-#raken_df.to_parquet(output_path / "kraken_raw", engine="pyarrow", index=False)
+
+# kraken_df.to_parquet(
+#     output_path / "kraken_raw",
+#     engine="pyarrow",
+#     index=False,
+#     coerce_timestamps='us',  # This is the key parameter
+#     allow_truncated_timestamps=True
+# )

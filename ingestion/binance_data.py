@@ -68,7 +68,11 @@ usdt_pairs = [
 ] #409 symbols
 
 
-#historical_res_df.to_parquet(output_path / "binance_raw", engine="pyarrow", index=False)
-
-
+# historical_res_df.to_parquet(
+#     output_path / "binance_raw",
+#     engine="pyarrow",
+#     index=False,
+#     coerce_timestamps='us',  # This is the key parameter
+#     allow_truncated_timestamps=True
+# )
 

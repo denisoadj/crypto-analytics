@@ -7,8 +7,7 @@ services:
       dockerfile: docker/Dockerfile
     container_name: crypto-cdc-spark
     volumes:
-      - ./data:/app/data   # mount parquet data
-      - ./bronze_ingest.py:/app/bronze_ingest.py
+      - ./processing:/app/processing  # This overrides the copied files
+      - ./storage:/app/storage
     environment:
       - PYSPARK_PYTHON=python3
-    command: ["spark-submit", "--packages", "net.snowflake:snowflake-jdbc:3.13.14,net.snowflake:spark-snowflake_2.12:2.11.1-spark_3.3", "bronze_ingest.py"]

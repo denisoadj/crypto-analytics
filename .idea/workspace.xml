@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3abf402f-169e-40eb-8974-42ed878d69cd" name="Changes" comment="docker set up">
+    <list default="true" id="3abf402f-169e-40eb-8974-42ed878d69cd" name="Changes" comment="snowflake connection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ingestion/binance_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/ingestion/binance_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processing/bronze_layer.py" beforeDir="false" afterPath="$PROJECT_DIR$/processing/bronze_layer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processing/pyspark_libraries.py" beforeDir="false" afterPath="$PROJECT_DIR$/processing/pyspark_libraries.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/binance_raw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/coin_gecko_raw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/kraken_raw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/okx_raw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/world_coin_index_raw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/yahoo_finance_raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +160,7 @@
       <workItem from="1755790676537" duration="726000" />
       <workItem from="1755791421337" duration="2977000" />
       <workItem from="1755794836303" duration="5117000" />
-      <workItem from="1755857355025" duration="24985000" />
+      <workItem from="1755857355025" duration="28475000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
@@ -196,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755799893048</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="snowflake connection">
+      <option name="closed" value="true" />
+      <created>1756006492816</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1756006492816</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +203,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
     <MESSAGE value="docker set up" />
-    <option name="LAST_COMMIT_MESSAGE" value="docker set up" />
+    <MESSAGE value="snowflake connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="snowflake connection" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/crypto_analytics$bronze_layer.coverage" NAME="bronze_layer Coverage Results" MODIFIED="1755996513495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/processing" />

@@ -1,4 +1,6 @@
 pyspark==3.3.2
 delta-spark==2.3.0
 snowflake-connector-python==3.0.1
-
+pyarrow
+pandas
+numpy

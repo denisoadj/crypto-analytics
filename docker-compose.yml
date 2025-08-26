@@ -1,13 +1,31 @@
 version: '3.8'
 
 services:
-  spark-app:
+  # Bronze layer service
+  bronze-processor:
     build:
       context: .
-      dockerfile: docker/Dockerfile
-    container_name: crypto-cdc-spark
+      dockerfile: C:\Users\denis\PycharmProjects\crypto-analytics\docker\Dockerfile
+    container_name: bronze-processor
     volumes:
-      - ./processing:/app/processing  # This overrides the copied files
       - ./storage:/app/storage
+    command: ["spark-submit",
+              "--packages", "net.snowflake:snowflake-jdbc:3.13.14,net.snowflake:spark-snowflake_2.12:2.11.1-spark_3.3",
+              "processing/bronze_layer.py"]
+
+  # Silver layer service
+  silver-processor:
+    build:
+      context: .
+      dockerfile: C:\Users\denis\PycharmProjects\crypto-analytics\docker\Dockerfile
+    container_name: silver-processor
     environment:
-      - PYSPARK_PYTHON=python3
+      - PYTHONPATH=/app
+    volumes:
+      - ./storage:/app/storage
+    command: ["spark-submit",
+              "--packages", "net.snowflake:snowflake-jdbc:3.13.14,net.snowflake:spark-snowflake_2.12:2.11.1-spark_3.3",
+              "processing/silver/silver_main.py"]
+
+
+  # docker-compose up bronze-processor or docker-compose up silver-processor

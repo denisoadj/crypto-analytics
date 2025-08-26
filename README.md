@@ -3,21 +3,27 @@ This project ingests cryptocurrency market data via APIs and WebSockets, stores 
 ## Repository Structure
 ```
 crypto-analytics/
-├── airflow_dags/        # Airflow DAGs orchestrating ingestion, ETL, and ML workflows
-├── docker/              # Dockerfiles + configs (PySpark, Airflow, Snowflake connector)
-├── ingestion/           # Python scripts: fetch raw data (APIs/WebSocket) & dump into local lake
-├── processing/          # PySpark jobs: transformations (bronze → silver → gold)
-│   ├── bronze/          # Cleaning, normalization from raw → bronze
-│   ├── silver/          # Feature engineering, enrichment → silver
-│   └── gold/            # Unified ML-ready tables (Snowflake)
-├── storage/             # Local data lake (sandbox): raw/processed parquet files
-│   └── raw/             # Raw API dumps in parquet format
-├── dashboard/           # Streamlit app + assets
-│   ├── pages/           # Multi-page dashboard support
-│   └── utils/           # Data loaders, chart builders
-├── docs/                # Architecture diagrams, API schema references
-├── README.md            # Setup + project overview
-└── docker-compose.yml   # Multi-container orchestration (Airflow, Spark, Streamlit)
+├── airflow_dags/         # Airflow DAGs orchestrating ingestion, ETL, and ML workflows
+├── docker/               # Dockerfiles and configs (PySpark, Airflow, Snowflake connector)
+├── ingestion/            # Python scripts: fetch raw data (APIs/WebSockets) → local data lake
+├── processing/           # PySpark jobs: transformations (Bronze → Silver → Gold)
+│   ├── bronze/           # Initial cleaning & normalization (raw → bronze)
+│   ├── silver/           # Feature engineering & enrichment (bronze → silver)
+│   │   ├── config/       # Config files for transformations
+│   │   ├── silver_main/  # Core silver layer transformation scripts
+│   │   ├── transformers/ # Modular transformation logic
+│   │   ├── utils/        # Helper functions for processing
+│   │   └── validators/   # Data validation & quality checks
+│   └── gold/             # Unified ML/analytics-ready tables (silver → gold → Snowflake)
+├── storage/              # Local data lake (sandbox): raw + processed parquet files
+│   └── raw/              # Raw API/WebSocket dumps in parquet format
+├── dashboard/            # Streamlit dashboard for analytics & visualization
+│   ├── pages/            # Multi-page Streamlit components
+│   └── utils/            # Data loaders & chart builders
+├── docs/                 # Documentation: architecture diagrams, API schema references
+├── README.md             # Project overview & setup instructions
+└── docker-compose.yml    # Multi-container orchestration (Airflow, Spark, Streamlit)
+
 
 ```
 

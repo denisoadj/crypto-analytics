@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3abf402f-169e-40eb-8974-42ed878d69cd" name="Changes" comment="repo tree adjustment &amp; silver layer" />
+    <list default="true" id="3abf402f-169e-40eb-8974-42ed878d69cd" name="Changes" comment="repo tree adjustment &amp; silver layer">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -217,7 +219,7 @@
       <workItem from="1755791421337" duration="2977000" />
       <workItem from="1755794836303" duration="5117000" />
       <workItem from="1755857355025" duration="28762000" />
-      <workItem from="1756038668762" duration="24723000" />
+      <workItem from="1756038668762" duration="25651000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
@@ -275,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756205410406</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="repo tree adjustment &amp; silver layer">
+      <option name="closed" value="true" />
+      <created>1756205698760</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1756205698760</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

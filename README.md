@@ -7,7 +7,7 @@ crypto-analytics/
 ├── docker/               # Dockerfiles and configs (PySpark, Airflow, Snowflake connector)
 ├── ingestion/            # Python scripts: fetch raw data (APIs/WebSockets) → local data lake
 ├── processing/           # PySpark jobs: transformations (Bronze → Silver → Gold)
-│   ├── bronze/           # Initial cleaning & normalization (raw → bronze)
+│   ├── bronze_layer/           # Initial cleaning & normalization (raw → bronze)
 │   ├── silver/           # Feature engineering & enrichment (bronze → silver)
 │   │   ├── config/       # Config files for transformations
 │   │   ├── silver_main/  # Core silver layer transformation scripts
